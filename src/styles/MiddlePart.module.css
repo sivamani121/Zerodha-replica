@@ -1,0 +1,82 @@
+.timestamps {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  align-self: center;
+  color: #9babc6;
+  white-space: nowrap;
+  transition: all 100ms ease-in 50ms;
+}
+
+p {
+  margin: 0;
+}
+
+.mybutton {
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  flex: 1;
+  cursor: pointer;
+  background-color: transparent;
+  box-sizing: border-box;
+  font: 400 14px "Open Sans", sans-serif;
+  border: 0;
+}
+
+@media only screen and (min-width: 787px) and (max-width: 2900px) {
+  .selctorbox {
+    display: flex;
+    gap: 2px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .selctorbox {
+    display: flex;
+    gap: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    z-index: 9999;
+  }
+}
+
+@media only screen and (min-width: 787px) and (max-width: 3024px) {
+  .outerbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20%;
+    width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 50px; 
+    background-color: rgba(255, 255, 255,1 );
+    padding: 10px;
+    z-index: 9999;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+}
+
+.logobox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.selected {
+  height: 28px;
+  opacity: 1;
+  border-radius: 4px;
+  color: #fff !important;
+  background-color: #387ed1;
+}

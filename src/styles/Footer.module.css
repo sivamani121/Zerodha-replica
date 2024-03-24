@@ -1,0 +1,17 @@
+.streak {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9babc6;
+  white-space: pre-line;
+  margin: 0;
+  text-decoration: none;
+  
+}
+.Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 10px 64px 60px;
+  align-items: flex-start;
+  background-color: #F7F7FA;
+}

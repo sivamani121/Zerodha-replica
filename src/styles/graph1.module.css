@@ -1,0 +1,103 @@
+.summary{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.catag{
+    font-size: 13px;
+
+}
+.catagtext{
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 2px 12px;
+    margin-top: 8px;
+}
+
+.catbox{
+    margin: 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.catcontainer{
+    margin: 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 2900px) {
+    .graphbox{
+    
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+  }
+  
+  @media only screen and (min-width: 787px) and (max-width: 1024px) {
+    .graphbox{
+    
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+  }
+
+  @media only screen and (max-width: 786px) {
+    .graphbox{
+    
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+  }
+.imageboxouter{
+    margin: 20px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.imageboxinner{
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+}
+.div{
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+
+.outercomp{
+    padding: 20px 16px;
+    box-shadow: 0px 3px 20px #162B740A;
+    min-height: 343px;
+    border-radius: 6px;
+    padding: 15px 10px 20px 10px;
+}
