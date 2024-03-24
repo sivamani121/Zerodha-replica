@@ -82,17 +82,18 @@ export default function Graph({
               src={id === 1 ? pointer2 : pointer1}
               style={{
                 height: "20%",
-                width: "10",
+                width: "10%",
                 position: "absolute",
                 left:
                   windowSize.width > 1500
-                    ? 2 + (barPos - 1) * 17.45
+                    ? -4+(barPos - 1) * 17.45
                     : windowSize.width > 400
-                    ? 2 + (barPos - 1) * 17.45
-                    : 2 + (barPos - 1) * 15.50,
+                    ? -4 + (barPos - 1) * 17.45
+                    : 2 + (barPos - 1) * 15.5,
+                transition: "left 0.3s ease-in-out", // Use transition on the left property
               }}
               alt="pointer"
-            ></img>
+            />
           </div>
           {id === 1 ? (
             <></>

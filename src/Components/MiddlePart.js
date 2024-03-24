@@ -16,8 +16,9 @@ export default function MiddlePart({ setIndex }) {
     };
 
     const handleResize = () => {
+      const scrollPosition = window.scrollY;
       const windowWidth = window.innerWidth;
-      setIsVisible(windowWidth < 786);
+      setIsVisible(scrollPosition === 0 || windowWidth > 786);
     };
 
     handleResize(); // Call once on initial render
