@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Graph1 from "./Components/graph1";
+
 import FullComp from "./Components/FullComp";
 import NavBar from "./Components/Navbar";
 import MiddlePart from "./Components/MiddlePart";

@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./../styles/Footer.module.css";
 import streak from "./../images/streaklogo.png";
 import Zerodha from "./../images/Zerodha.svg";
-export default function Footer({}) {
+export default function Footer() {
   return (
     <div className={`${styles.Footer}`}>
       <a
-        href="#"
+        href="https://streak.zerodha.com/"
         style={{
           display: "flex",
           gap: "5px",
