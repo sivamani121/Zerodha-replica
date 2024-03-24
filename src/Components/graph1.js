@@ -89,7 +89,7 @@ export default function Graph({
                     ? -4+(barPos - 1) * 17.45
                     : windowSize.width > 400
                     ? -4 + (barPos - 1) * 17.45
-                    : 2 + (barPos - 1) * 15.5,
+                    : -4+ (barPos - 1) * 284/17*windowSize.width/375,
                 transition: "left 0.3s ease-in-out", // Use transition on the left property
               }}
               alt="pointer"
